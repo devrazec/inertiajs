@@ -1,6 +1,6 @@
 name: inertiajs
 type: laravel
-docroot: "public"
+docroot: public
 php_version: "8.0"
 webserver_type: apache-fpm
 router_http_port: "80"
