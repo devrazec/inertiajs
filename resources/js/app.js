@@ -1,6 +1,6 @@
 import './bootstrap';
 import '../css/app.css';
-import.meta.glob(["../images/**", "../fonts/**"]);
+Object.entries(import.meta.globEager("../images/**"));
 
 import { createSSRApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
