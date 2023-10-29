@@ -19,5 +19,9 @@
         "tailwindcss": "^3.2.1",
         "vite": "2.9.9",
         "vue": "^3.2.41"
+    },
+    "dependencies": {
+        "vite-plugin-vuetify": "^1.0.2",
+        "vuetify": "^3.3.23"
     }
 }
