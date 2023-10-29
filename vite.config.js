@@ -20,4 +20,8 @@ export default defineConfig({
         }),
         vuetify({ autoImport: true }),
     ],
+    build: {
+        minify: false,
+        sourcemap: true,
+    },
 });

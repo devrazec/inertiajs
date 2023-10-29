@@ -5,7 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Listen for Xdebug",
+            "name": "VUE Debug",
+            "request": "launch",
+            "type": "chrome",
+            "url": "https://inertiajs.ddev.site",
+            "webRoot": "${workspaceFolder}/src",
+            "sourceMapPathOverrides": {
+                "webpack:///src/*": "${webRoot}/*"
+            }
+        },
+        {
+            "name": "PHP Debug",
             "type": "php",
             "request": "launch",
             "hostname": "inertiajs.ddev.site",
